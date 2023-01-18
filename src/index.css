@@ -1,20 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 
-:root {
-  background-color: #EDF6FA;
-  --color-active: #0f7dc6;
-}
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 /* header {
   background-color: var(--color-bg);
@@ -61,11 +46,123 @@ main a:hover {
   color: var(--color-active);
   cursor: default;
 } */
-.container {
-  max-width: 900px;
-  height: 29px;
-  border: 2px solid blue;
-  margin-top: 10px;
-  padding: 0px;
 
+
+.root {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #EDF6FA;
+}
+
+.page {
+  max-width: 1920px;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: #fff;
+  /* display: flex;
+  flex-direction: column; */
+  border: 5px solid orangered;
+}
+
+.header {
+  max-width: 1920px;
+  max-height: 95px;
+  box-sizing: border-box;
+  /* background-color: #FFFFFF; */
+  border: 5px solid rgb(206, 149, 44);
+}
+.header__wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 1170px;
+  max-height: 93px;
+  border: 1px solid red;
+}
+.header__button {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+  width: 245px;
+  height: 55px;
+  border-radius: 10px;
+  background: #37F69B;
+}
+.header__links{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.link {
+    padding: 0;
+    display: inline-block;
+    /* font-family: "Inter", "Arial ", sans-serif; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+    text-decoration-line: none;
+    color: black;
+    transition: 0.3s ease-in;
+  }
+  
+  .footer__link:hover {
+    opacity: 0.8;
+  }
+
+.color{
+  background-color:  #37f69b;
+}
+
+.h1 {
+  color: #000;
+}
+
+
+.container {
+  max-width: 1170px;
+  height: 795px;
+  border: 2px solid blue;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.div1 {
+  max-width: 1170px;
+  min-height: 850px;
+  /* background-color: #37f69b; */
+  position: relative;
+}
+
+.img {
+  width: 555px;
+  height: 640px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+}
+
+.title {
+font-family: Cera Pro;
+font-style: Bold;
+font-size: 85px;
+position: absolute;
+bottom: 350px ;
+left: 0;
+color: #000;
+max-width: 630px;
 }

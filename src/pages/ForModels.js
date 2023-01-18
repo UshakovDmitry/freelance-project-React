@@ -1,6 +1,6 @@
 const ForModels = () => {
   return <div>
-    Models
+   <h1 className="h1">ForModels</h1>
   </div>;
 };
 export default ForModels;

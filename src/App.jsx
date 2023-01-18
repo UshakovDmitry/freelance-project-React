@@ -12,7 +12,8 @@ import Notfoundpage from './pages/Notfoundpage.js'
 
 function App() {
   return (
-    <>
+    <div className="root">
+    <div className="page">
       <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -24,7 +25,8 @@ function App() {
         <Route path="*" element={<Notfoundpage />} />
       </Route>
       </Routes>
-    </>
+      </div>
+    </div>
   );
 }
 

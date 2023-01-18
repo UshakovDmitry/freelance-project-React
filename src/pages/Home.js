@@ -1,7 +1,7 @@
-const Home= () => {
+const Home = () => {
   return (
     <div>
-      <h1>Get started with React-Router 6</h1>
+      <h1 className="h1">Home</h1>
     </div>
   );
 };
