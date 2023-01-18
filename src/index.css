@@ -3,7 +3,7 @@
 }
 
 :root {
-  --color-bg: #EDF6FA;
+  background-color: #EDF6FA;
   --color-active: #0f7dc6;
 }
 
@@ -16,33 +16,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
+/* header {
   background-color: var(--color-bg);
   padding: 2rem 0;
-  text-align: center;
-}
-header > a {
+  text-align: center; */
+
+/* header > a {
   color: white;
   text-decoration: none;
   padding: 0 1rem;
 }
 header > a:hover {
   text-decoration: underline;
-}
-
+} */
+/* 
 h1 {
   text-align: center;
   margin-top: 0;
-}
+} */
 
-.container {
+/* .container {
   max-width: 900px;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin: 0 auto;
-}
+  margin-top: 10px;
 
-main {
+} */
+
+/* main {
   min-height: calc(100vh - 85px - 22px);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -54,9 +55,17 @@ main a {
 }
 main a:hover {
   text-decoration: underline;
-}
+} */
 
-.active {
+/* .active {
   color: var(--color-active);
   cursor: default;
+} */
+.container {
+  max-width: 900px;
+  height: 29px;
+  border: 2px solid blue;
+  margin-top: 10px;
+  padding: 0px;
+
 }

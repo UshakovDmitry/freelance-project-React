@@ -1,5 +1,5 @@
-import { Routes, Route, Link } from "react-router-dom";
-import "./components/Layout/Header.css";
+import { Routes, Route } from "react-router-dom";
+import "./components/Layout/Layout.css";
 
 import About from "./pages/About.js";
 import Cities from "./pages/Cities.js";
@@ -7,27 +7,21 @@ import Studios from "./pages/Studios.js";
 import ForModels from "./pages/ForModels.js";
 import Vacancies from "./pages/Vacancies";
 import Layout from './components/Layout/Layout.js'
+import Home from './pages/Home.js';
+import Notfoundpage from './pages/Notfoundpage.js'
 
 function App() {
   return (
     <>
       <Routes>
-      <Route panh="/" element={<Layout />}>
-        <Route path="/studios" element={<Studios />}>
-          Студии
-        </Route>
-        <Route path="/cities" element={<Cities />}>
-          Города
-        </Route>
-        <Route path="/vacancies" element={<Vacancies />}>
-          Вакансии
-        </Route>
-        <Route path="/formodels" element={<ForModels />}>
-          Для моделей{" "}
-        </Route>
-        <Route path="/about" element={<About />}>
-          О нас
-        </Route>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="studios" element={<Studios />}/>
+        <Route path="cities" element={<Cities />}/>
+        <Route path="vacancies" element={<Vacancies />}/>
+        <Route path="formodels" element={<ForModels />}/>
+        <Route path="about" element={<About />}/>
+        <Route path="*" element={<Notfoundpage />} />
       </Route>
       </Routes>
     </>

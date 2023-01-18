@@ -1,5 +1,9 @@
 const Studios = () => {
-  return <div></div>;
+  return (
+   <div>
+    Studios
+   </div>
+  )
 };
 
 export default Studios;

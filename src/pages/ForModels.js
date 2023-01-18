@@ -1,4 +1,6 @@
 const ForModels = () => {
-  return <div></div>;
+  return <div>
+    Models
+  </div>;
 };
 export default ForModels;

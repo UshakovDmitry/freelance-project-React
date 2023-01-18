@@ -1,4 +1,4 @@
-const Homepage = () => {
+const Home= () => {
   return (
     <div>
       <h1>Get started with React-Router 6</h1>
@@ -6,4 +6,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;
