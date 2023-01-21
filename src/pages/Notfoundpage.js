@@ -1,7 +1,7 @@
 const Notfoundpage = () => {
   return (
   
-    <h1 className="h1">Notfoundpage</h1>
+    <h1 className="not-found">Notfoundpage</h1>
 )
 };
 

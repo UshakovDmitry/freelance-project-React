@@ -1,48 +1,11 @@
-/* header {
-  background-color: var(--color-bg);
-  padding: 2rem 0;
-  text-align: center; */
-
-/* header > a {
-  color: white;
-  text-decoration: none;
-  padding: 0 1rem;
-}
-header > a:hover {
-  text-decoration: underline;
-} */
-/* 
-h1 {
-  text-align: center;
-  margin-top: 0;
-} */
-
-/* .container {
-  max-width: 900px;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top: 10px;
-
-} */
-
-/* main {
-  min-height: calc(100vh - 85px - 22px);
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-main a {
-  text-decoration: none;
-  color: var(--color-bg);
-}
-main a:hover {
-  text-decoration: underline;
-} */
-
-/* .active {
-  color: var(--color-active);
-  cursor: default;
-} */
+@font-face {
+  /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+  font-family: "Cera pro"; 
+  /*  адрес шрифта и тип  */
+  src: url(./components/fonts/Cera-pro/Cera\ Pro\ Black.otf) format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
 
 :root {
   font-family: Inter, Arial, sans-serif;
@@ -63,6 +26,15 @@ main a:hover {
   flex-direction: column; */
   /* border: 5px solid orangered; */
 }
+
+.not-found {
+  font-size: 44px;
+  margin: 0 auto;
+  color: #1e6644;
+}
+
+
+
 
 .header {
   max-width: 1920px;
@@ -122,8 +94,12 @@ main a:hover {
 }
 
 .h1 {
+  font-family: "Cera pro"; 
   color: #000;
   cursor: pointer;
+  font-size: 22px;
+  text-decoration: none;
+  line-height: 33px;
 }
 
 .container {
@@ -157,7 +133,7 @@ main a:hover {
 }
 
 .title {
-  font-family: Cera Pro;
+  font-family: "Cera pro"; 
   font-style: Bold;
   font-size: 85px;
   position: absolute;
@@ -186,6 +162,7 @@ main a:hover {
 }
 
 .h2 {
+  font-family: "Cera pro";
   font-style: Bold;
   font-size: 32px;
   margin-left: 58px;
@@ -208,6 +185,7 @@ main a:hover {
   height: 300px;
 }
 .h3 {
+  font-family: "Cera pro";
   margin-top: 80px;
   font-style: Bold;
   font-size: 44px;

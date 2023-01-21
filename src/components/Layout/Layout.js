@@ -1,6 +1,6 @@
 import Footer from '../Footer/Footer.js'
-import Header from '../Header'
-import Outlet from "react-router-dom";
+import Header from '../Header/Header'
+import {Outlet} from "react-router-dom";
 
 // import Studios from '../../pages/Studios.js'
 // import Cities from '../../pages/Cities.js'

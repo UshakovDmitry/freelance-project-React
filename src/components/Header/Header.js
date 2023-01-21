@@ -1,5 +1,5 @@
 import {Link}  from "react-router-dom";
-import '../index.css'
+import '../../index.css'
 const Header = () => {
     return (
 
@@ -8,7 +8,7 @@ const Header = () => {
 
 <div className="header__wrapper">
 
-  <h1 onClick={<Link to="/"></Link>} className="h1">WEB CENTER</h1>
+  <Link to="/" className="h1">WEB CENTER</Link>
 
  <ul className="header__links">
     <li><Link to="/studios" className="link">Студии</Link></li>

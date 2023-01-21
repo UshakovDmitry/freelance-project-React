@@ -15,15 +15,15 @@ function App() {
     <div className="root">
     <div className="page">
       <Routes>
-      <Route path="/" exact element={<Layout />}>
-        <Route index element={<Home />} />
+       <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home />} />
         <Route path="studios" element={<Studios />}/>
         <Route path="cities" element={<Cities />}/>
         <Route path="vacancies" element={<Vacancies />}/>
         <Route path="formodels" element={<ForModels />}/>
         <Route path="about" element={<About />}/>
         <Route path="*" element={<Notfoundpage />} />
-      </Route>
+       </Route>
       </Routes>
       </div>
     </div>
