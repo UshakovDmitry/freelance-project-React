@@ -123,11 +123,12 @@ main a:hover {
 
 .h1 {
   color: #000;
+  cursor: pointer;
 }
 
 .container {
   max-width: 1170px;
-  height: 3795px;
+  height: 3495px;
   /* border: 2px solid blue; */
   padding: 0;
   margin: 0 auto;
@@ -290,4 +291,55 @@ main a:hover {
 .card__icone-text {
   color: #1E6644;
   font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 300px 150px;
+  background-color: #37f69b; */
+  /* height: 615px; */
+}
+
+.header__links_green {
+  background-color: #37f69b;
+}
+
+
+.footer__list-1 {
+  margin: 0 auto;
+  padding: 0;
+  /* font-family: "Inter", "Arial ", sans-serif; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 18px;
+  list-style: none;
+  text-decoration-line: none;
+  color: black;
+  transition: 0.3s ease-in;
+}
+
+.footer__li {
+  margin-bottom: 40px;
+  
+}
+
+.footer__h2 {
+  text-align: center;
+  color: #000;
+  font-size: 32px;
 }

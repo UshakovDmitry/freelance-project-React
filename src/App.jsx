@@ -15,7 +15,7 @@ function App() {
     <div className="root">
     <div className="page">
       <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/" exact element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="studios" element={<Studios />}/>
         <Route path="cities" element={<Cities />}/>

@@ -15,12 +15,12 @@ const Studios = () => {
   return (
     <div>
       <div className="div1">
-        <h1 className="title">Все кое-какие студии России</h1>
+        <h1 className="title">HVGFCGHV JGHC CKGH HJ LGUи России</h1>
 
         <img className="img" title={"CASH ROOM"} p={"Новосибирск"} src={logo} />
 
         <div className="studios">
-          <h2 className="h2">Кое-какие студии в твоем городе</h2>
+          <h2 className="h2">Вебкам студии в твоем городе</h2>
           <button className="button2">Выбрать город</button>
         </div>
       </div>
@@ -28,7 +28,7 @@ const Studios = () => {
       <div className="banner">
         <img className="banner__img" title={"CASH ROOM"} p={"Новосибирск"} src={banner} />
       </div>
-      <h2 className="h3">Лучшие студии России</h2>
+      <h2 className="h3">Лучшие вебкам студии России</h2>
 
 
       <div className="main__grid">

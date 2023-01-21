@@ -1,5 +1,6 @@
-
-import {Outlet, Link } from "react-router-dom";
+import Footer from '../Footer/Footer.js'
+import Header from '../Header'
+import Outlet from "react-router-dom";
 
 // import Studios from '../../pages/Studios.js'
 // import Cities from '../../pages/Cities.js'
@@ -13,34 +14,11 @@ import '../../index.css'
 const Layout = () => {
   return (
     <>
-      <header className="header">
-
-        <div className="header__wrapper">
-
-          <h1 className="h1">WEB CENTER</h1>
-
-         <ul className="header__links">
-            <li><Link to="/studios" className="link">Студии</Link></li>
-            <li><Link to="/cities" className="link">Города</Link></li>
-            <li><Link to="/vacancies" className="link">Вакансии</Link></li>
-            <li><Link to="/formodels" className="link">Для моделей</Link></li>
-            <li><Link to="/about" className="link">О нас</Link></li>
-         </ul>
-
-         <button className="header__button">Подобрать студию</button>
-
-        </div>
-
-      </header>
-    
-   
+     <Header />
       <main className="container">
       <Outlet />
       </main>
-      
-     
-      <footer>Footer</footer>
-
+      <Footer />
     </>
   );
 };
