@@ -12,8 +12,6 @@ import office_icone from "../images/office.svg";
 
 
 const Home = () => {
-
-
   return (
     <div>
       <div>

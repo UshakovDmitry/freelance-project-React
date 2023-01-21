@@ -1,20 +1,21 @@
 @font-face {
   /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
-  font-family: "Cera pro"; 
+  font-family: "Cera pro";
   /*  адрес шрифта и тип  */
-  src: url(./components/fonts/Cera-pro/Cera\ Pro\ Black.otf) format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-  } 
+  src: url(./components/fonts/Cera-pro/Cera\ Pro\ Black.otf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
-  @font-face {
-    /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
-    font-family: "Cera pro Regular"; 
-    /*  адрес шрифта и тип  */
-    src: url(./components/fonts/Cera-pro//Cera\ Pro\ Regular\ Italic.otf) format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-    } 
+@font-face {
+  /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+  font-family: "Cera pro Regular";
+  /*  адрес шрифта и тип  */
+  src: url(./components/fonts/Cera-pro//Cera\ Pro\ Regular\ Italic.otf)
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 :root {
   font-family: Inter, Arial, sans-serif;
@@ -42,9 +43,6 @@
   color: #1e6644;
 }
 
-
-
-
 .header {
   max-width: 1920px;
   max-height: 95px;
@@ -67,7 +65,7 @@
   box-sizing: border-box;
   border: none;
   color: black;
-  width: 245px;
+  min-width: 245px;
   height: 55px;
   border-radius: 10px;
   background: #37f69b;
@@ -82,6 +80,7 @@
 }
 
 .link {
+  font-family: "Cera pro";
   padding: 0;
   display: inline-block;
   /* font-family: "Inter", "Arial ", sans-serif; */
@@ -104,7 +103,7 @@
 }
 
 .h1 {
-  font-family: "Cera pro"; 
+  font-family: "Cera pro";
   color: #000;
   cursor: pointer;
   font-size: 42px;
@@ -143,7 +142,7 @@
 }
 
 .title {
-  font-family: "Cera pro"; 
+  font-family: "Cera pro";
   font-style: Bold;
   font-size: 85px;
   position: absolute;
@@ -201,13 +200,12 @@
   font-size: 44px;
   color: #000;
 }
-.main__grid{
+.main__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 25px;
   /* border: 3px solid green; */
-
 }
 
 .card {
@@ -218,9 +216,9 @@
   background-color: #fff;
 }
 .card__img {
-  width:370px;
+  width: 370px;
   height: 208px;
-  border-bottom: 1px solid #ECF6F9 ;
+  border-bottom: 1px solid #ecf6f9;
 }
 
 .card__title {
@@ -228,38 +226,29 @@
   margin-top: 23px;
   margin-left: 20px;
   font-size: 22px;
-  color:#203542;
-
-
-
+  color: #203542;
 }
 
-.card__paragraf{
+.card__paragraf {
   font-family: "Cera pro Regular";
   margin-top: 10px;
   margin-left: 20px;
   font-size: 18px;
-  color:#203542;
-  vertical-align: top; 
+  color: #203542;
+  vertical-align: top;
   line-height: 150%;
   line-height: 27px;
- 
-  
-  
 
-
-
-/* Font family: Cera Pro
+  /* Font family: Cera Pro
 Font style: Regular
 Font size: 18px
 Line height: 27px
 Line height: 150%
 Align: Left
 Vertical align: Top */
-
 }
 
-.card__info{
+.card__info {
   margin-top: 65px;
   display: flex;
   align-items: center;
@@ -268,10 +257,9 @@ Vertical align: Top */
   height: 40px;
   background-color: rgba(225, 254, 240, 7);
   /* background-color: #E1FEF0; */
-  color: #1E6644;
+  color: #1e6644;
   border-radius: 10px;
   margin-left: 20px;
-
 }
 
 .card__info-dis {
@@ -284,10 +272,9 @@ Vertical align: Top */
   border-radius: 10px;
   margin-left: 20px;
   background-color: royalblue;
-  color: #AED0C0;
+  color: #aed0c0;
   /* border: 2px solid red; */
 }
-
 
 .card__icone {
   width: 18px;
@@ -295,22 +282,9 @@ Vertical align: Top */
 }
 
 .card__icone-text {
-  color: #1E6644;
+  color: #1e6644;
   font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
   /* display: grid;
@@ -323,7 +297,6 @@ Vertical align: Top */
 .header__links_green {
   background-color: #37f69b;
 }
-
 
 .footer__list-1 {
   margin: 0 auto;
@@ -341,11 +314,60 @@ Vertical align: Top */
 
 .footer__li {
   margin-bottom: 40px;
-  
 }
 
 .footer__h2 {
   text-align: center;
   color: #000;
   font-size: 32px;
+}
+
+.h1__page {
+  font-family: "Cera pro";
+  margin-top: 120px;
+  margin-left: 0px;
+  font-size: 85px;
+  color: #000;
+}
+
+.button__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.banner__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  max-width: 1170px;
+  max-height: 300px;
+}
+
+.studios__h2 {
+  font-family: "Cera Pro";
+  margin-top: 100px;
+  font-size: 44px;
+  color: #000;
+}
+
+.button__wrapper2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1170px;
+  max-height: 140px;
+}
+
+.clear_filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.clear__text {
+  color: #1E6644;
 }
