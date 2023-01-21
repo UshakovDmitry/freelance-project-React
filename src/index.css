@@ -7,6 +7,15 @@
   font-weight: normal; 
   } 
 
+  @font-face {
+    /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: "Cera pro Regular"; 
+    /*  адрес шрифта и тип  */
+    src: url(./components/fonts/Cera-pro//Cera\ Pro\ Regular\ Italic.otf) format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
 :root {
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
@@ -44,6 +53,7 @@
   /* border: 5px solid rgb(206, 149, 44); */
 }
 .header__wrapper {
+  padding-top: 20px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -97,7 +107,7 @@
   font-family: "Cera pro"; 
   color: #000;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 42px;
   text-decoration: none;
   line-height: 33px;
 }
@@ -214,20 +224,38 @@
 }
 
 .card__title {
+  font-family: "Cera pro";
   margin-top: 23px;
   margin-left: 20px;
   font-size: 22px;
-  color: #000;
+  color:#203542;
 
 
 
 }
 
 .card__paragraf{
+  font-family: "Cera pro Regular";
   margin-top: 10px;
   margin-left: 20px;
   font-size: 18px;
-  color: #000;
+  color:#203542;
+  vertical-align: top; 
+  line-height: 150%;
+  line-height: 27px;
+ 
+  
+  
+
+
+
+/* Font family: Cera Pro
+Font style: Regular
+Font size: 18px
+Line height: 27px
+Line height: 150%
+Align: Left
+Vertical align: Top */
 
 }
 
