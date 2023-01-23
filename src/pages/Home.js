@@ -16,12 +16,12 @@ const Home = () => {
     <div>
       <div>
       <div className="div1">
-        <h1 className="title">Те самые студии в России</h1>
+        <h1 className="title">Вебстудии в России</h1>
 
         <img className="img" title={"CASH ROOM"} p={"Новосибирск"} src={logo} />
 
         <div className="studios">
-          <h2 className="h2">Вебкам студии в твоем городе</h2>
+          <h2 className="h2">Вебстудии в твоем городе</h2>
           <button className="button2">Выбрать город</button>
         </div>
       </div>
@@ -34,7 +34,7 @@ const Home = () => {
           src={img_banner}
         />
       </div>
-      <h2 className="h3">Лучшие вебкам студии России</h2>
+      <h2 className="h3">Лучшие вебстудии России</h2>
 
       <div className="main__grid">
         <Card
